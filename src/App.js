@@ -5,12 +5,18 @@ import './App.css';
 // Layouts
 import MainLayout from './layouts/MainLayout';
 
+// Hooks
+import useSequentialBackground from './hooks/useSequentialBackground';
+
 // Pages
 import Home from './pages/Home';
 import About from './pages/About';
 import NotFound from './pages/NotFound';
 
 function App() {
+  // Use the sequential background hook
+  useSequentialBackground();
+
   return (
     <div className="App">
       <Routes>

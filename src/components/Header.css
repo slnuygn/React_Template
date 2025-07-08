@@ -1,7 +1,8 @@
 .header {
-  background-color: var(--dark-color);
+  background-color: color-mix(in srgb, white 10%, transparent);
   padding: 15px 0;
-  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px); /* Optional: adds a nice blur effect */
 }
 
 .header-content {
@@ -19,7 +20,7 @@
 }
 
 .logo a:hover {
-  color: var(--primary-color);
+  color: var(--hover-color); /* Use a variable for hover color */
 }
 
 .nav-list {
@@ -42,7 +43,7 @@
 
 .nav-item a:hover, 
 .nav-item a.active {
-  color: var(--primary-color);
+  color: var(--hover-color);
 }
 
 /* Responsive for mobile */

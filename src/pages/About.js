@@ -1,7 +1,11 @@
 import React from 'react';
+import useSequentialBackground from '../hooks/useSequentialBackground';
 import './About.css';
 
 const About = () => {
+  // Change background every time About page loads
+  useSequentialBackground();
+
   return (
     <div className="about-page">
       <h1>About</h1>

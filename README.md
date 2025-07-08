@@ -67,4 +67,4 @@ To add a new page:
 - Document props and perform type checking
 - Extract repetitive code into custom hooks
 - Manage page layouts in layout components
-- Collect API requests in the service layer 
+- Collect API requests in the service layer

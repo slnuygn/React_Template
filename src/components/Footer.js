@@ -8,7 +8,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="container footer-content">
         <div className="copyright">
-          &copy; {currentYear} React Template. All rights reserved.
+          &copy; {currentYear} Virtus. All rights reserved.
         </div>
         <div className="footer-links">
           <a href="/privacy" className="footer-link">Privacy</a>

@@ -3,8 +3,42 @@
 }
 
 .welcome-text {
-  font-size: 1.2rem;
+  font-size: 1rem;
+  font-weight: 200;
+  text-align: center;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.home-text {
+  font-size: 2rem;
+  font-weight: 300;
+  text-align: center;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.download-badges {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  align-items: center;
   margin-bottom: 30px;
+}
+
+.badge-link {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.badge-link:hover {
+  transform: scale(1.05);
+}
+
+.store-badge {
+  height: 60px;
+  width: auto;
+  border-radius: 8px;
 }
 
 .cards-section {

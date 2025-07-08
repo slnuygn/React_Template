@@ -5,6 +5,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-height: 100vh;
 }
 
 code {
@@ -17,11 +18,14 @@ code {
   --primary-color: #0d6efd;
   --secondary-color: #6c757d;
   --success-color: #198754;
+  --successdarker-color: #14532d;
   --error-color: #dc3545;
   --warning-color: #ffc107;
   --info-color: #0dcaf0;
   --light-color: #f8f9fa;
   --dark-color: #212529;
+  --text-color: #6c757d;
+  --hover-color: #61666b;
 }
 
 /* Genel stil ayarları */

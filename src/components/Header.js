@@ -7,7 +7,7 @@ const Header = () => {
     <header className="header">
       <div className="container header-content">
         <div className="logo">
-          <NavLink to="/">React Template</NavLink>
+          <NavLink to="/">Evcil Ailem</NavLink>
         </div>
         <nav className="nav">
           <ul className="nav-list">
